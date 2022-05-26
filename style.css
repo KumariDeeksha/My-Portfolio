@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .sidebar{
-    background-color: yellow;
+    background-color: rgb(169, 168, 168);
     width: 15vw;
     height: 100vh;
 }
@@ -13,26 +13,93 @@
 .sidebar nav li{
     list-style: none;
     font-size: 20px;
-    padding: 33px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    margin-top: 55px;
+    color: black;
+    display: block;
 }
 .main{
-    background-color: rgb(204, 204, 238);
+    /* background-color: rgb(204, 204, 238); */
     width: 90vw;
+
 }
 .container{
     display: flex;
     
 }
 .infocontainer{
-    background-color: bisque;
-    height: 70vh;
-    width: 85vw;
+    /* background-color: bisque; */
+    height: 45vh;
+    width: 70vw;
     margin: 144px auto;
     display: flex;
     justify-content: space-around;
 }
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .devpic img{
-    width: 300px;
-    height: 440px;
-   
+    height: 70vh;
+}
+.name{
+ font-size: 55px;
+ font-weight: bold;
+}
+.about{
+ font-size: 40px;
+}
+.hello{
+ font-size: 60px;
+}
+.buttons{
+    padding: 24px;
+    
+}
+.buttons button{
+  background-color: rgb(45, 150, 247);
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  font-weight:400;
+  font-size: 20px;
+  margin: 0 3px;
+}
+.buttons button:hover{
+    background-color: rgb(121, 123, 125);
+    cursor: pointer;
+    color: black;
+}
+.moreabout{
+    font-size: 23px;
+    padding: 10px;
+}
+.contactform{
+    padding-top:130px;
+    padding:34px;
+}
+.contactform h1{
+    /* text-align: center; */
+    font-size: 130px;
+}
+.contactform form div{
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px;
+   padding: 3px;
+}
+
+#emailHelp{
+    color: blue;
+    font-size: 18px;
 }
